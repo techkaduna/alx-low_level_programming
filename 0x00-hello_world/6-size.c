@@ -13,7 +13,6 @@ int main(void)
 	long long int lli;
 	float f;
 
-	/* print the  size of each data type */
 	printf("Size of a char: %lu byte(s)\n", (unsigned long) sizeof(c));
 	printf("Size of an int: %lu byte(s)\n", (unsigned long) sizeof(i));
 	printf("Size of a long int: %lu bytes(s)\n", (unsigned long) sizeof(li));
