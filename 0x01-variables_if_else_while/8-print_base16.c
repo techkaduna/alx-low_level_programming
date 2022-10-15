@@ -1,21 +1,24 @@
+
 #include <stdio.h>
 
-/**
- * main - prints all the hexadecimals in lowercase
- *
- * Return: Always 0 (Success)
- *
- */
-int main(void)
+ /**
+   * main - Prints all the numbers of base 16 in lowercase.
+   *
+   * Return: Always 0.
+   */
+ int main(void)
 {
-	int a;
-	char b;
+		int num;
+		char letter;
 
-	/*looping through ab array of intgers and chars */
-	for (a = 0; a < 10; a++)
-		putchar((a % 10) + '0');	
-	/*second loop to iterate over hexadecimal letters */
-	for (b = 'a'; b <= 'f'; b++)
-		putchar(b);
-	putchar('\n');
+		/* writting the bothe for loops to iterarate over integers and chars*/
+		for (num = 0; num < 10; num++)
+			putchar((num % 10) + '0');
+
+		for (letter = 'a'; letter <= 'f'; letter++)
+			putchar(letter);
+
+		putchar('\n');
+
+		return (0);
 }
