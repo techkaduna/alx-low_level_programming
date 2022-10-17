@@ -1,17 +1,17 @@
 #include <stdio.h>
-
 /**
- * main - print all single digits between 0 and 9
+ * main - Prints single digit numbers of base 10
  *
- * Return: Always 0 (Success)
- *
+ * Return: Always 0
  */
 int main(void)
 {
-	int a;
+	int n;
 
-	/*looping through array of numbers */
-	for (a = 0; a < 10; a++)
-		putchar((a % 10) + '0');
+	for (n = 0; n < 10; n++)
+	{
+		putchar((n % 10) + '0');
+	}
 	putchar('\n');
+	return (0);
 }
