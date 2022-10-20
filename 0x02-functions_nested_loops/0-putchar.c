@@ -8,7 +8,7 @@ int main(void)
 {
 	char *str = "_putchar";
 
-	/* While loop keepps printing str with it contains cahracters */
+	/* While loop keepps printing str with it contains characters */
 	while (*str)
 	{
 		_putchar(*str);
