@@ -12,7 +12,7 @@ int print_last_digit(int n)
 
 	/* check for negative case */
 	if (n < 0)
-		last = (last * (-1);
+		last = (last * (-1));
 	_putchar(last + '0');
 	return (last);
 }
