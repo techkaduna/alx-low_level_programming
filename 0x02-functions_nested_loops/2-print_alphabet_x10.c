@@ -12,7 +12,7 @@ void print_alphabet_x10(void)
 	int i = 0;
 
 	/* while loop to iterate how many times for loop runs */
-	while (1 <= 10)
+	while (i <= 10)
 	{
 		for (alpha = 'a'; alpha < 'z'; alpha++)
 		{
