@@ -13,12 +13,10 @@ int _isupper(int c)
 	/* check if c is uppercase */
 	if ((c >= 'A') || (c <= 'Z'))
 	{
-		_putchar(c);
 		return (1);
 	}
 	else
 	{
-		_putchar(c);
 		return (0);
 	}
 }
