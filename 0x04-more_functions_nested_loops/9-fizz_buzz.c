@@ -1,8 +1,8 @@
 #include <stdio.h>
 
 /**
- * main - classic fizz buzz test 
- *
+ * main - print fizz if multiple of 3, buzz if multiple
+ * of 5 and fizzbuzz if multiple of 5 and 3
  * Return: Always 0 (success)
  */
 int main(void)
