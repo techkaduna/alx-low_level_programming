@@ -5,7 +5,7 @@
  * @s: pointer to string (param)
  * Return: len (Lenght of string)
  */
-int _strlen(const char *s)
+int _strlen(char *s)
 {
 	int len;
 
