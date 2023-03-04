@@ -6,7 +6,7 @@
  * @s2: pointer to second string to be compared against
  *
  * Return: If str1 == str2, 0
- * 	   If str1 != str2, return (str1 - str2)
+ *	If str1 != str2, return (str1 - str2)
  *
  */
 
