@@ -3,7 +3,7 @@
 /**
  * print_chessboard - function prints a chess board
  * @a: pointer
- * 
+ *
  * Return: void
  */
 
