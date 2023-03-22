@@ -3,12 +3,12 @@
 
 /**
  * free_dog - function that frees dog
- * @d: dog 
+ * @d: dog
  *
  * Return: void
  */
 
-void free_dog()
+void free_dog(dog_t *d)
 {
 	if (d != NULL)
 	{
